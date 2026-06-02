@@ -6,7 +6,11 @@
 Repositório destinado a elaboração de uma situação problema que justifique o uso de um padrão de projeto previamente escolhido: Template Method, bem como a sua evolução utilizando Reflexão e Anotação para reduzir o acoplamento.
 
 ## 📌 Descrição
-Esse projeto foi desenvolvido em três etapas, nas quais consiste em uma evolução gradual de um código. Foi-se pensado em uma situação real do cotidiano (envio de pedidos, tomando como base a empresa Correios), e trazido para o código. Primerio foi feito o código sem nenhum padrão de projeto nem desenvolvimento avançado. Logo após foi aplicado ao mesmo código o padrão de projeto Template Method. Por fim, foi utilizado metaprogramação (reclexão e anotação), para reduzir o acoplamento.
+Esse projeto foi desenvolvido em três etapas, nas quais consiste em uma evolução gradual de um código. 
+
+Foi-se pensado em uma situação real do cotidiano (envio de pedidos, tomando como base a empresa Correios), e trazido para o código. 
+
+Primerio foi feito o código sem nenhum padrão de projeto nem desenvolvimento avançado. Logo após foi aplicado ao mesmo código o padrão de projeto Template Method. Por fim, foi utilizado metaprogramação (reclexão e anotação), para reduzir o acoplamento.
 
 ## 🛠️  Método utilizado
 Cada etapa está em uma das branchs:
