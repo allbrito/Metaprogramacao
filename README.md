@@ -3,14 +3,14 @@
 ---
 
 ## 🎯 Objetivo
-Mostrar o problema inicial ao não utilizar o Template Method.
+Mostrar como o código fica ao utilizar o padrão Template Method
 
 ## 📌 Descrição
-Nessa branch está a primeira etapa de criação do projeto, na qual não tem aplicado o padrão de projeto. Nele encontramos problemas, como:
-- Fluxo repetido na Main;
-- Duplicação do código;
-- Sem garantia de ordem dos passos;
+Nessa branch está a segunda etapa de criação do projeto, onde é aplicado o padrão de projeto, assim tenho ganhos como: 
+- Lógica do negócio centralizada;
+- Garantia de ordem correta do fluxo;
+- Sem código duplicado;
 
 ## 📖 Representação do diagrama de classe em UML
 
-<img width="1840" height="1180" alt="Diagrama etapa 1" src="https://github.com/user-attachments/assets/fbba0f2d-66fb-425c-b01e-ddde750301c6" />
+<img width="2062" height="1367" alt="Diagrama etapa 2" src="https://github.com/user-attachments/assets/53ffa041-460a-46fe-9a6d-6006f13e23a3" />
