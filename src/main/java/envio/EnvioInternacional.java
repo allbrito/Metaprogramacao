@@ -1,31 +1,18 @@
 package envio;
 
-public class EnvioInternacional {
+public class EnvioInternacional extends ProcessadorPedido{
 
-    private double frete;
-    private String codigo;
-
+    @Override
     public void calcularFrete(double valorFrete) {
         frete = valorFrete + (valorFrete * imposto());
     }
 
+    @Override
     public void gerarCodigo() {
         codigo = "Gerando código internacional";
     }
 
-    public void notificarCliente(){
-        System.out.println("Enviando Email...\nValor do Frete: " + frete + "\nCódigo de Rastreio: " + codigo);
-    }
-
     private double imposto() {
         return 0.2;
-    }
-
-    public double getFrete() {
-        return frete;
-    }
-
-    public String getCodigo() {
-        return codigo;
     }
 }

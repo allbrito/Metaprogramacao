@@ -1,30 +1,25 @@
 import envio.EnvioInternacional;
 import envio.EnvioPAC;
 import envio.EnvioSedex;
+import envio.ProcessadorPedido;
 
 public class Main {
     public static void main(String[] args) {
 
-        EnvioPAC pac = new EnvioPAC();
-        EnvioSedex sedex = new EnvioSedex();
-        EnvioInternacional internacional = new EnvioInternacional();
+        ProcessadorPedido pac = new EnvioPAC();
+        ProcessadorPedido sedex = new EnvioSedex();
+        ProcessadorPedido internacional = new EnvioInternacional();
 
         double frete = 20.0;
 
-        pac.calcularFrete(frete);
-        pac.gerarCodigo();
-        pac.notificarCliente();
+        pac.processarPedido(frete);
 
         System.out.println();
 
-        sedex.calcularFrete(frete);
-        sedex.gerarCodigo();
-        sedex.notificarCliente();
+        sedex.processarPedido(frete);
 
         System.out.println();
 
-        internacional.calcularFrete(frete);
-        internacional.gerarCodigo();
-        internacional.notificarCliente();
+        internacional.processarPedido(frete);
     }
 }

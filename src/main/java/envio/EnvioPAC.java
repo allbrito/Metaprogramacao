@@ -1,27 +1,14 @@
 package envio;
 
-public class EnvioPAC {
+public class EnvioPAC extends ProcessadorPedido{
 
-    private double frete;
-    private String codigo;
-
+    @Override
     public void calcularFrete(double valorFrete) {
         frete = valorFrete;
     }
 
+    @Override
     public void gerarCodigo() {
         codigo = "Gerando código PAC";
-    }
-
-    public void notificarCliente(){
-        System.out.println("Enviando Email...\nValor do Frete: " + frete + "\nCódigo de Rastreio: " + codigo);
-    }
-
-    public double getFrete() {
-        return frete;
-    }
-
-    public String getCodigo() {
-        return codigo;
     }
 }
