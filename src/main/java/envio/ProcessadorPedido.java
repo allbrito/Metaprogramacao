@@ -11,7 +11,7 @@ public abstract class ProcessadorPedido {
         notificarCliente();
     }
 
-    public void notificarCliente(){
+    private void notificarCliente(){
         System.out.println("Enviando Email...\nValor do Frete: " + frete + "\nCódigo de Rastreio: " + codigo);
     }
 
