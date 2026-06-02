@@ -1,25 +1,22 @@
-import envio.EnvioInternacional;
-import envio.EnvioPAC;
-import envio.EnvioSedex;
+import reflexao.RegistroProcessador;
 import envio.ProcessadorPedido;
 
 public class Main {
     public static void main(String[] args) {
 
-        ProcessadorPedido pac = new EnvioPAC();
-        ProcessadorPedido sedex = new EnvioSedex();
-        ProcessadorPedido internacional = new EnvioInternacional();
-
         double frete = 20.0;
 
-        pac.processarPedido(frete);
+        ProcessadorPedido p1 = RegistroProcessador.obterProcessador(1);
+        p1.processarPedido(frete);
 
         System.out.println();
 
-        sedex.processarPedido(frete);
+        ProcessadorPedido p2 = RegistroProcessador.obterProcessador(2);
+        p2.processarPedido(frete);
 
         System.out.println();
 
-        internacional.processarPedido(frete);
+        ProcessadorPedido p3 = RegistroProcessador.obterProcessador(3);
+        p3.processarPedido(frete);
     }
 }

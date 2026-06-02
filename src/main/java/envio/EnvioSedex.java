@@ -1,5 +1,8 @@
 package envio;
 
+import anotacao.TipoEnvio;
+
+@TipoEnvio(codigo = 2)
 public class EnvioSedex extends ProcessadorPedido{
 
     @Override

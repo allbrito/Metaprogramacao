@@ -1,5 +1,8 @@
 package envio;
 
+import anotacao.TipoEnvio;
+
+@TipoEnvio(codigo = 3)
 public class EnvioInternacional extends ProcessadorPedido{
 
     @Override

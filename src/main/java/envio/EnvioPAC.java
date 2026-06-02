@@ -1,5 +1,8 @@
 package envio;
 
+import anotacao.TipoEnvio;
+
+@TipoEnvio(codigo = 1)
 public class EnvioPAC extends ProcessadorPedido{
 
     @Override
@@ -7,7 +10,6 @@ public class EnvioPAC extends ProcessadorPedido{
         frete = valorFrete;
     }
 
-    @Override
     public void gerarCodigo() {
         codigo = "Gerando código PAC";
     }
