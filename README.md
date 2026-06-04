@@ -36,9 +36,8 @@ O Template Method é um padrão de projeto comportamental. Ele permite que você
 
 ## ▶️ Como Executar
 ### Pré-requisitos:
-- Java 25 instalado
-- Maven instalado
-- IntelliJ IDEA (recomendado) ou outra IDE de sua preferência
+- Java 11 ou superior
+- Maven 3.6+
 Passo a passo
 1. Clone o repositório
 ```bash
