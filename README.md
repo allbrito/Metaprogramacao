@@ -30,7 +30,7 @@ O Template Method é um padrão de projeto comportamental. Ele permite que você
 
 ## 📖 Representação da solução final em UML
 
-<img width="2178" height="1577" alt="Diagrama etapa 3" src="https://github.com/user-attachments/assets/c33799a6-5dfc-4bae-8cbe-45cf47bf5d23" />
+<img width="2178" height="1577" alt="Diagrama etapa 3" src="https://github.com/user-attachments/assets/fb896c7c-aad9-47ec-9f13-b0a00431bb14" />
 
 ---
 
