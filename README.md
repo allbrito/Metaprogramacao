@@ -38,7 +38,8 @@ O Template Method é um padrão de projeto comportamental. Ele permite que você
 ### Pré-requisitos:
 - Java 11 ou superior
 - Maven 3.6+
-Passo a passo
+  
+### Passo a passo
 1. Clone o repositório
 ```bash
 git clone https://github.com/<seu-usuario>/<nome-do-repositorio>.git
