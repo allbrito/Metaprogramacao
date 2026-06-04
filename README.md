@@ -13,4 +13,4 @@ Nessa branch está a segunda etapa de criação do projeto, onde é aplicado o p
 
 ## 📖 Representação do diagrama de classe em UML
 
-<img width="2062" height="1367" alt="Diagrama etapa 2" src="https://github.com/user-attachments/assets/53ffa041-460a-46fe-9a6d-6006f13e23a3" />
+<img width="2062" height="1367" alt="Diagrama etapa 2" src="https://github.com/user-attachments/assets/39d75223-0092-4415-bbef-a0af20304b9a" />
