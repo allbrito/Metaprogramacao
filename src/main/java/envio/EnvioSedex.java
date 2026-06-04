@@ -2,7 +2,6 @@ package envio;
 
 public class EnvioSedex {
 
-    private final int tipo = 2;
     private double frete;
     private String codigo;
 
