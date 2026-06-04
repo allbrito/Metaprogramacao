@@ -13,4 +13,4 @@ Nessa branch está a primeira etapa de criação do projeto, na qual não tem ap
 
 ## 📖 Representação do diagrama de classe em UML
 
-<img width="1840" height="1180" alt="Diagrama etapa 1" src="https://github.com/user-attachments/assets/fbba0f2d-66fb-425c-b01e-ddde750301c6" />
+<img width="1840" height="1180" alt="Diagrama etapa 1" src="https://github.com/user-attachments/assets/582b7838-880e-435c-9ce1-c3a1e66d9c5c" />
