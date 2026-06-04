@@ -6,11 +6,12 @@ import anotacao.TipoEnvio;
 public class EnvioPAC extends ProcessadorPedido{
 
     @Override
-    public void calcularFrete(double valorFrete) {
+    protected void calcularFrete(double valorFrete) {
         frete = valorFrete;
     }
 
-    public void gerarCodigo() {
+    @Override
+    protected void gerarCodigo() {
         codigo = "Gerando código PAC";
     }
 }

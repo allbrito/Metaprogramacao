@@ -6,12 +6,12 @@ import anotacao.TipoEnvio;
 public class EnvioSedex extends ProcessadorPedido{
 
     @Override
-    public void calcularFrete(double valorFrete) {
+    protected void calcularFrete(double valorFrete) {
         frete = valorFrete + (valorFrete * adicionalRapidez());
     }
 
     @Override
-    public void gerarCodigo() {
+    protected void gerarCodigo() {
         codigo = "Gerando código Sedex";
     }
 
