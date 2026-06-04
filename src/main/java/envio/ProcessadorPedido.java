@@ -15,9 +15,9 @@ public abstract class ProcessadorPedido {
         System.out.println("Enviando Email...\nValor do Frete: " + frete + "\nCódigo de Rastreio: " + codigo);
     }
 
-    public abstract void calcularFrete(double valorFrete);
+    protected abstract void calcularFrete(double valorFrete);
 
-    public abstract void gerarCodigo();
+    protected abstract void gerarCodigo();
 
     public double getFrete() {
         return frete;
