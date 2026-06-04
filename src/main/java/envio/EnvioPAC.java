@@ -2,6 +2,7 @@ package envio;
 
 public class EnvioPAC {
 
+    private final int tipo = 1;
     private double frete;
     private String codigo;
 

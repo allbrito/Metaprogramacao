@@ -2,6 +2,7 @@ package envio;
 
 public class EnvioInternacional {
 
+    private final int tipo = 3;
     private double frete;
     private String codigo;
 
